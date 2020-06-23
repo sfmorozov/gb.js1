@@ -39,6 +39,9 @@ letter = new AttachedPost("User", "Thx a lot", "11.10.10");
 console.log(letter);
 letter.makeTextHighlighted();
 console.log(letter);
+letter.edit("Thx")
+console.log(letter);
+
 
 /**
  * Реализация задачи на es6
@@ -73,4 +76,6 @@ class AttachedPost extends Post {
 letter = new AttachedPost("User", "Thx a lot", "11.10.10");
 console.log(letter);
 letter.makeTextHighlighted();
+console.log(letter);
+letter.edit("Thx")
 console.log(letter);
