@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    min-width: 600px;
+    max-width: 750px;
+    margin: 0 auto;
+}
+.header{
+    text-align: center;
+}
+.header-span{
+    font-size: 20px;
+}
+.content{
+    min-height: calc(97vh - 20px);
+}
+.content-p{
+    margin: 0;
+    text-align: center;
+    padding: 15px 5px 0 5px;
+}
+.footer{
+    height: 20px;
+}
+.footer-p{
+    margin: 0;
+    display: inline-flex;
+    width: 49%;
+    justify-content: center;
+}

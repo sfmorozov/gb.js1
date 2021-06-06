@@ -1,0 +1,27 @@
+*{
+    margin: 0 auto;
+  
+}
+body{
+    display: flex;
+    min-width: 720px;
+    max-width: 960px;
+}
+.chessPlate{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+}
+.cell{
+    box-sizing: border-box;
+
+    border: 1px solid black;
+
+    display: flex;
+    width: 12.5%;
+    height: 12.5%;
+}
+.blck{
+    background-color: black;
+}

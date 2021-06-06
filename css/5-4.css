@@ -1,0 +1,33 @@
+*{
+    margin: 0 auto;
+}
+body{
+    min-width: 720px;
+    max-width: 960px;
+    display: flex;
+}
+.product{
+    padding-top: 10px;
+    flex-wrap: wrap;
+    display: inline-flex;
+    width: 200px;
+    
+}
+.productName{
+    text-align: center;
+}
+img{
+    padding: 10px 0 10px 0;
+}
+.desc{
+    display: none;
+    text-align: justify;
+    width: 200px;
+    height: 300px;
+    padding: 10px 0 10px 0;
+    overflow: auto;
+}
+button{
+    display: inline-flex;
+    height: 20px;
+}
